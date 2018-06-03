@@ -5,7 +5,7 @@
   "scripts": {
     "start": "one-app-engine --mock-mode production -ai",
     "release": "mltci release",
-    "postinstall": "one-app-engine --setup"
+    "postinstall": "one-app-engine --setup",
     "android": "cd android ; ./gradlew installDebug",
     "xcode": "open ios/react_native_navigation_bootstrap.xcodeproj"
   },
