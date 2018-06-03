@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "watchman watch-del-all && (adb reverse tcp:8081 tcp:8081 || true) && node node_modules/react-native/local-cli/cli.js start",
+    "start": "one-app-engine --mock-mode production -ai",
+    "release": "mltci release",
+    "postinstall": "one-app-engine --setup"
     "android": "cd android ; ./gradlew installDebug",
     "xcode": "open ios/react_native_navigation_bootstrap.xcodeproj"
   },
@@ -15,5 +17,25 @@
     "react-native-navigation": "1.x.x",
     "react-native-ui-lib": "^2.0.118",
     "remx": "^2.0.27"
+  },
+  "peerDependencies": {
+    "wix-one-app-engine": "*"
+  },
+  "devDependencies": {
+    "wix-one-app-engine": "ga",
+    "a-wix-react-native-framework": "ga",
+    "wix-mobile-lifecycle-tools": "^2.0.0"
+  },
+  "oneAppEngine": {
+    "modules": [
+      "remxReddit",
+      "demo"
+    ],
+    "tabs": {
+      "owner": [
+        "lev-demo",
+        "demo"
+      ]
+    }
   }
 }
