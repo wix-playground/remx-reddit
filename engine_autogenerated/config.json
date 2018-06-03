@@ -1,0 +1,10 @@
+{
+  "modules": [
+    "remx-reddit"
+  ],
+  "tabs": {
+    "owner": [
+      "reddit"
+    ]
+  }
+}

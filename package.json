@@ -1,18 +1,17 @@
 {
-  "name": "qa-workshop-demo",
+  "name": "remx-reddit",
   "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/wix-private/remx-reddit.git"
   },
+  "main": "src/module.js",
   "scripts": {
     "start": "one-app-engine --mock-mode quickLogin",
     "start-ios": "one-app-engine --mock-mode quickLogin -i",
     "start-android": "one-app-engine --mock-mode quickLogin -a",
     "release": "mltci release",
-    "postinstall": "one-app-engine --setup",
-    "android": "cd android ; ./gradlew installDebug",
-    "xcode": "open ios/react_native_navigation_bootstrap.xcodeproj"
+    "postinstall": "one-app-engine --setup"
   },
   "publishConfig": {
     "registry": "http://npm.dev.wixpress.com/"
@@ -32,13 +31,12 @@
   },
   "oneAppEngine": {
     "modules": [
-      "qa-workshop-demo",
-      "demo"
+      "remx-reddit"
     ],
+    "modulesInTransitionMode": [],
     "tabs": {
       "owner": [
-        "lev-demo",
-        "demo"
+        "reddit"
       ]
     }
   }
