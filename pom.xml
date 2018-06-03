@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wixpress.mobile</groupId>
+    <version>1.16.0-SNAPSHOT</version>
+    <artifactId>wix-demo-one-app-lev-1</artifactId>
+    <packaging>pom</packaging>
+    <name>Wix OneApp Modudle Demo Lev</name>
+    <organization>
+        <name>One App</name>
+    </organization>
+    <description>
+        Wix OneApp Modudle Demo Lev
+    </description>
+    <developers>
+        <developer>
+            <name>Lev Vidrak</name>
+            <email>levv@wix.com</email>
+            <roles>
+                <role>owner</role>
+            </roles>
+        </developer>
+    </developers>
+</project>
