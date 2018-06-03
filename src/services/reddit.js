@@ -1,7 +1,7 @@
 import _ from 'lodash'
 
 export async function getTopics() {
-    const url = "https://www.reddit.com/subreddits/default.json"
+    const url = "https://www.reddit.com/subreddits/default.json?limit=1000";
     const subredditsRes = await fetch(url);
     const subredditsData = await subredditsRes.json();
     const subreddits = subredditsData.data.children;
@@ -21,7 +21,7 @@ function _parseTopics(subreddits) {
 }
 
 export async function getPosts(url) {
-    const topicUrl = `https://www.reddit.com${url}hot.json`
+    const topicUrl = `https://www.reddit.com${url}hot.json?limit=1000`
     const postsRes = await fetch(topicUrl);
     const postsData = await postsRes.json();
     const postsAllData = _.get(postsData,'data.children');
