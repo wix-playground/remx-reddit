@@ -10,13 +10,7 @@
     "xcode": "open ios/react_native_navigation_bootstrap.xcodeproj"
   },
   "dependencies": {
-    "prop-types": "*",
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.44.2",
-    "react-native-fab": "^1.0.6",
-    "react-native-navigation": "1.x.x",
-    "react-native-ui-lib": "^2.0.118",
-    "remx": "^2.0.27"
+    "react-native-fab": "^1.0.6"
   },
   "peerDependencies": {
     "wix-one-app-engine": "*"
