@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.wixpress.mobile</groupId>
     <version>1.16.0-SNAPSHOT</version>
-    <artifactId>wix-demo-one-app-lev-1</artifactId>
+    <artifactId>qa-workshop-demo</artifactId>
     <packaging>pom</packaging>
-    <name>Wix OneApp Modudle Demo Lev</name>
+    <name>qa workshop demo</name>
     <organization>
         <name>One App</name>
     </organization>
     <description>
-        Wix OneApp Modudle Demo Lev
+        qa workshop demo
     </description>
     <developers>
         <developer>

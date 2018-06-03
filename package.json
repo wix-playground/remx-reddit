@@ -1,5 +1,5 @@
 {
-  "name": "remxReddit",
+  "name": "qa-workshop-demo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "oneAppEngine": {
     "modules": [
-      "remxReddit",
+      "qa-workshop-demo",
       "demo"
     ],
     "tabs": {
