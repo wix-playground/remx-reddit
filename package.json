@@ -5,7 +5,6 @@
     "type": "git",
     "url": "https://github.com/wix-private/remx-reddit.git"
   },
-  "private": true,
   "scripts": {
     "start": "one-app-engine --mock-mode quickLogin",
     "start-ios": "one-app-engine --mock-mode quickLogin -i",
