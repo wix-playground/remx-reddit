@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "one-app-engine --mock-mode production -ai",
+    "start": "one-app-engine --mock-mode quickLogin",
+    "start-ios": "one-app-engine --mock-mode quickLogin -i",
+    "start-android": "one-app-engine --mock-mode quickLogin -a",
     "release": "mltci release",
     "postinstall": "one-app-engine --setup",
     "android": "cd android ; ./gradlew installDebug",
@@ -13,7 +15,9 @@
     "react-native-fab": "^1.0.6"
   },
   "peerDependencies": {
-    "wix-one-app-engine": "*"
+    "wix-one-app-engine": "*",
+    "a-wix-react-native-framework": "*",
+    "wix-one-app-engine-tools": "*"
   },
   "devDependencies": {
     "wix-one-app-engine": "ga",
