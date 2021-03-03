@@ -22,12 +22,12 @@
   "peerDependencies": {
     "wix-one-app-engine": "*",
     "a-wix-react-native-framework": "*",
-    "wix-one-app-engine-tools": "*"
+    "@wix/wix-one-app-engine-tools": "*"
   },
   "devDependencies": {
     "wix-one-app-engine": "ga",
     "a-wix-react-native-framework": "ga",
-    "wix-mobile-lifecycle-tools": "^2.0.0"
+    "@wix/wix-mobile-lifecycle-tools": "^2.0.0"
   },
   "oneAppEngine": {
     "modules": [
